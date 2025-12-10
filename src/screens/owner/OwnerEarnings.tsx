@@ -7,7 +7,6 @@ import {
   TrendingDown,
   Calendar,
   Download,
-  ChevronRight,
   Banknote,
   Clock
 } from 'lucide-react';

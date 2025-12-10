@@ -4,8 +4,6 @@ import { motion } from 'motion/react';
 import { 
   ArrowLeft, 
   Plus, 
-  TrendingUp, 
-  TrendingDown,
   CreditCard,
   Smartphone,
   Building2,
@@ -18,7 +16,7 @@ import {
   Copy,
   Check
 } from 'lucide-react';
-import { Card, Badge, Button, BottomSheet, Input } from '../../components/ui';
+import { Card, Badge, Button, BottomSheet } from '../../components/ui';
 import { useApp } from '../../context/AppContext';
 
 export function WalletScreen() {

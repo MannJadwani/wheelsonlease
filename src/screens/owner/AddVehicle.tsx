@@ -24,7 +24,7 @@ type Step = 'type' | 'details' | 'photos' | 'pricing' | 'documents' | 'review';
 
 export function AddVehicle() {
   const navigate = useNavigate();
-  const { addVehicle, user } = useApp();
+  const { addVehicle } = useApp();
   const [step, setStep] = useState<Step>('type');
   const [loading, setLoading] = useState(false);
 

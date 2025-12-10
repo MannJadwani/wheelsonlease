@@ -4,7 +4,6 @@ import {
   ArrowLeft, 
   User, 
   Phone, 
-  Mail, 
   Shield, 
   Wallet,
   FileText,

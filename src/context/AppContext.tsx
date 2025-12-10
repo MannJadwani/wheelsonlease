@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, ReactNode } from 'react';
+import { createContext, useContext, useState, type ReactNode } from 'react';
 import type { User, UserRole, KYCStatus, KYCData, Vehicle, Booking, Transaction, VehicleType } from '../types';
 import { mockVehicles, mockTransactions, mockBookings } from '../data/mockData';
 
